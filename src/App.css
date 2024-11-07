@@ -40,3 +40,50 @@
 .read-the-docs {
   color: #888;
 }
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: rgb(255, 255, 255); /* White text */
+  padding: 12px 20px; /* Some padding */
+  margin-top: 10px; /* Space from other elements */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Larger text */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
